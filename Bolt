@@ -3,14 +3,11 @@ Date: 05.05.22
 Program: Hello Figure 8
 
 async function startProgram() {
-
-	async function startProgram() {
 setSpeed (110)
-await spin (360 , 2)
-	}
-
+await spin (360 , 3)
+stopRoll (0)
+setSpeed (115)
+await spin (-360 , 3)	
+stopRoll (0)	
 }
-
-}
-
 
