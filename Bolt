@@ -12,6 +12,7 @@ await roll (170,69,1)
 await Sound.Animal.play(true)
 await roll (-150,70,1.5)
 setMainLed ({r: 255, g: 0, b: 0})
+await roll (90,57,.5)
 } 
 
 
