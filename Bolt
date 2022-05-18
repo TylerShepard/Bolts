@@ -1,5 +1,5 @@
 Programmer: Tyler Shepard/ Andrew Mccloud
-Date: 05.16.22
+Date: 05.18.22
 Program: Maze
 
 async function startProgram() {
@@ -10,6 +10,8 @@ await roll (90,34,0.27)
 await roll (90,57,2)
 await roll (170,69,1)
 await Sound.Animal.play(true)
+await roll (-150,70,1.5)
+setMainLed ({r: 255, g: 0, b: 0})
 } 
 
 
